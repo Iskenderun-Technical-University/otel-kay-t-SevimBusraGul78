@@ -1,0 +1,14 @@
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\bin\Debug\otomasyon.exe.config
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\bin\Debug\otomasyon.exe
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\bin\Debug\otomasyon.pdb
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.csproj.AssemblyReference.cache
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.csproj.SuggestedBindingRedirects.cache
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Properties.Resources.resources
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.yenimüşteri.resources
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.csproj.GenerateResource.cache
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.exe
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.pdb
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.BtnGiriş.resources
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.frmanaform.resources
+C:\Users\Safranbolu78\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Frmodalar1.resources
