@@ -46,23 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmadmingiriş.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmadmingiriş.Designer.cs">
-      <DependentUpon>frmadmingiriş.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmanaform.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmanaform.Designer.cs">
       <DependentUpon>frmanaform.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmmüsteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmüsteriler.Designer.cs">
+      <DependentUpon>frmmüsteriler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmodalar1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frmodalar1.Designer.cs">
       <DependentUpon>Frmodalar1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmradyo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmradyo.Designer.cs">
+      <DependentUpon>Frmradyo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstoklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstoklar.Designer.cs">
+      <DependentUpon>frmstoklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gazeteler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gazeteler.Designer.cs">
+      <DependentUpon>Gazeteler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gelir gider formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gelir gider formu.Designer.cs">
+      <DependentUpon>gelir gider formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giriş.Designer.cs">
+      <DependentUpon>giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.Designer.cs">
+      <DependentUpon>Mesajlar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,14 +108,32 @@
     <Compile Include="yenimüşteri.Designer.cs">
       <DependentUpon>yenimüşteri.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmadmingiriş.resx">
-      <DependentUpon>frmadmingiriş.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmanaform.resx">
       <DependentUpon>frmanaform.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmmüsteriler.resx">
+      <DependentUpon>frmmüsteriler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmodalar1.resx">
       <DependentUpon>Frmodalar1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmradyo.resx">
+      <DependentUpon>Frmradyo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstoklar.resx">
+      <DependentUpon>frmstoklar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gazeteler.resx">
+      <DependentUpon>Gazeteler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gelir gider formu.resx">
+      <DependentUpon>gelir gider formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giriş.resx">
+      <DependentUpon>giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mesajlar.resx">
+      <DependentUpon>Mesajlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +159,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
