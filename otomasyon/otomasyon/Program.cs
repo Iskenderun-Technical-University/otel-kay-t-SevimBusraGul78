@@ -16,7 +16,7 @@ namespace otomasyon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frmodalar1());
+            Application.Run(new giriş());
         }
     }
 }
