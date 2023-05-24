@@ -72,91 +72,110 @@
             // 
             // btnoda109
             // 
-            this.btnoda109.Location = new System.Drawing.Point(449, 401);
+            this.btnoda109.BackColor = System.Drawing.Color.SeaShell;
+            this.btnoda109.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnoda109.Location = new System.Drawing.Point(451, 403);
             this.btnoda109.Name = "btnoda109";
             this.btnoda109.Size = new System.Drawing.Size(106, 88);
             this.btnoda109.TabIndex = 20;
             this.btnoda109.Text = "109";
-            this.btnoda109.UseVisualStyleBackColor = true;
+            this.btnoda109.UseVisualStyleBackColor = false;
             // 
             // btnoda108
             // 
-            this.btnoda108.Location = new System.Drawing.Point(271, 398);
+            this.btnoda108.BackColor = System.Drawing.Color.SeaShell;
+            this.btnoda108.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnoda108.Location = new System.Drawing.Point(273, 400);
             this.btnoda108.Name = "btnoda108";
             this.btnoda108.Size = new System.Drawing.Size(106, 88);
             this.btnoda108.TabIndex = 19;
             this.btnoda108.Text = "108";
-            this.btnoda108.UseVisualStyleBackColor = true;
+            this.btnoda108.UseVisualStyleBackColor = false;
             // 
             // btnoda107
             // 
-            this.btnoda107.Location = new System.Drawing.Point(82, 398);
+            this.btnoda107.BackColor = System.Drawing.Color.SeaShell;
+            this.btnoda107.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnoda107.Location = new System.Drawing.Point(84, 400);
             this.btnoda107.Name = "btnoda107";
             this.btnoda107.Size = new System.Drawing.Size(106, 88);
             this.btnoda107.TabIndex = 18;
             this.btnoda107.Text = "107";
-            this.btnoda107.UseVisualStyleBackColor = true;
+            this.btnoda107.UseVisualStyleBackColor = false;
             // 
             // btnoda106
             // 
-            this.btnoda106.Location = new System.Drawing.Point(449, 239);
+            this.btnoda106.BackColor = System.Drawing.Color.SeaShell;
+            this.btnoda106.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnoda106.Location = new System.Drawing.Point(451, 241);
             this.btnoda106.Name = "btnoda106";
             this.btnoda106.Size = new System.Drawing.Size(106, 88);
             this.btnoda106.TabIndex = 17;
             this.btnoda106.Text = "106";
-            this.btnoda106.UseVisualStyleBackColor = true;
+            this.btnoda106.UseVisualStyleBackColor = false;
             // 
             // btnoda105
             // 
-            this.btnoda105.Location = new System.Drawing.Point(271, 239);
+            this.btnoda105.BackColor = System.Drawing.Color.SeaShell;
+            this.btnoda105.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnoda105.Location = new System.Drawing.Point(273, 241);
             this.btnoda105.Name = "btnoda105";
             this.btnoda105.Size = new System.Drawing.Size(106, 88);
             this.btnoda105.TabIndex = 16;
             this.btnoda105.Text = "105";
-            this.btnoda105.UseVisualStyleBackColor = true;
+            this.btnoda105.UseVisualStyleBackColor = false;
             // 
             // btnoda104
             // 
-            this.btnoda104.Location = new System.Drawing.Point(82, 239);
+            this.btnoda104.BackColor = System.Drawing.Color.SeaShell;
+            this.btnoda104.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnoda104.Location = new System.Drawing.Point(84, 241);
             this.btnoda104.Name = "btnoda104";
             this.btnoda104.Size = new System.Drawing.Size(106, 88);
             this.btnoda104.TabIndex = 15;
             this.btnoda104.Text = "104";
-            this.btnoda104.UseVisualStyleBackColor = true;
+            this.btnoda104.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(449, 89);
+            this.button1.BackColor = System.Drawing.Color.SeaShell;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(451, 91);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 88);
             this.button1.TabIndex = 14;
             this.button1.Text = "103";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(271, 89);
+            this.button2.BackColor = System.Drawing.Color.SeaShell;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(273, 91);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 88);
             this.button2.TabIndex = 13;
             this.button2.Text = "102";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(82, 89);
+            this.button3.BackColor = System.Drawing.Color.SeaShell;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Location = new System.Drawing.Point(84, 91);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(106, 88);
             this.button3.TabIndex = 12;
             this.button3.Text = "101";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // Frmodalar1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(637, 578);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(654, 635);
             this.Controls.Add(this.btnoda109);
             this.Controls.Add(this.btnoda108);
             this.Controls.Add(this.btnoda107);
@@ -169,8 +188,10 @@
             this.Controls.Add(this.btnoda103);
             this.Controls.Add(this.btnoda102);
             this.Controls.Add(this.btnoda101);
+            this.DoubleBuffered = true;
             this.Name = "Frmodalar1";
             this.Text = "Frmodalar1";
+            this.Load += new System.EventHandler(this.Frmodalar1_Load);
             this.ResumeLayout(false);
 
         }
