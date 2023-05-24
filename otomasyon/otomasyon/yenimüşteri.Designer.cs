@@ -49,21 +49,21 @@
             this.cmbcinsiyet = new System.Windows.Forms.ComboBox();
             this.btnkaydet = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.lblücret = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnoda101 = new System.Windows.Forms.Button();
-            this.btnoda102 = new System.Windows.Forms.Button();
-            this.btnoda103 = new System.Windows.Forms.Button();
-            this.btnoda104 = new System.Windows.Forms.Button();
-            this.btnoda105 = new System.Windows.Forms.Button();
-            this.btnoda106 = new System.Windows.Forms.Button();
-            this.btnoda107 = new System.Windows.Forms.Button();
-            this.btnoda108 = new System.Windows.Forms.Button();
+            this.btnboşoda = new System.Windows.Forms.Button();
             this.btnoda109 = new System.Windows.Forms.Button();
             this.btndoluoda = new System.Windows.Forms.Button();
-            this.btnboşoda = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lblücret = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnoda108 = new System.Windows.Forms.Button();
+            this.btnoda107 = new System.Windows.Forms.Button();
+            this.btnoda106 = new System.Windows.Forms.Button();
+            this.btnoda105 = new System.Windows.Forms.Button();
+            this.btnoda104 = new System.Windows.Forms.Button();
+            this.btnoda103 = new System.Windows.Forms.Button();
+            this.btnoda102 = new System.Windows.Forms.Button();
+            this.btnoda101 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -71,6 +71,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(94, 27);
             this.label1.Name = "label1";
@@ -82,6 +83,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Silver;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(59, 76);
             this.label2.Name = "label2";
@@ -93,6 +95,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Silver;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(60, 163);
             this.label3.Name = "label3";
@@ -104,6 +107,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Silver;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(3, 318);
             this.label4.Name = "label4";
@@ -114,6 +118,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Silver;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(25, 367);
             this.label5.Name = "label5";
@@ -124,6 +129,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Silver;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(4, 276);
             this.label6.Name = "label6";
@@ -134,6 +140,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Silver;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(32, 417);
             this.label7.Name = "label7";
@@ -210,6 +217,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Silver;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(93, 202);
             this.label8.Name = "label8";
@@ -221,6 +229,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Silver;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.Location = new System.Drawing.Point(48, 116);
             this.label9.Name = "label9";
@@ -249,10 +258,13 @@
             this.btnkaydet.TabIndex = 19;
             this.btnkaydet.Text = "Kaydet";
             this.btnkaydet.UseVisualStyleBackColor = true;
+            this.btnkaydet.Click += new System.EventHandler(this.btnkaydet_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.groupBox1.Controls.Add(this.richTextBox1);
             this.groupBox1.Controls.Add(this.lblücret);
             this.groupBox1.Controls.Add(this.label10);
@@ -283,11 +295,45 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " ";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(174, 239);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(246, 29);
+            this.richTextBox1.TabIndex = 23;
+            this.richTextBox1.Text = "";
+            // 
+            // lblücret
+            // 
+            this.lblücret.AutoSize = true;
+            this.lblücret.BackColor = System.Drawing.Color.Silver;
+            this.lblücret.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblücret.Location = new System.Drawing.Point(86, 237);
+            this.lblücret.Name = "lblücret";
+            this.lblücret.Size = new System.Drawing.Size(70, 25);
+            this.lblücret.TabIndex = 21;
+            this.lblücret.Text = "Ücret:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Enabled = false;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(405, 480);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(24, 25);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "0";
+            // 
             // groupBox2
             // 
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groupBox2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
+            this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox2.Controls.Add(this.btnboşoda);
             this.groupBox2.Controls.Add(this.btnoda109);
+            this.groupBox2.Controls.Add(this.btndoluoda);
             this.groupBox2.Controls.Add(this.btnoda108);
             this.groupBox2.Controls.Add(this.btnoda107);
             this.groupBox2.Controls.Add(this.btnoda106);
@@ -303,85 +349,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Odalar";
             // 
-            // btnoda101
+            // btnboşoda
             // 
-            this.btnoda101.Location = new System.Drawing.Point(36, 58);
-            this.btnoda101.Name = "btnoda101";
-            this.btnoda101.Size = new System.Drawing.Size(106, 88);
-            this.btnoda101.TabIndex = 0;
-            this.btnoda101.Text = "101";
-            this.btnoda101.UseVisualStyleBackColor = true;
-            this.btnoda101.Click += new System.EventHandler(this.btnoda101_Click);
-            // 
-            // btnoda102
-            // 
-            this.btnoda102.Location = new System.Drawing.Point(225, 58);
-            this.btnoda102.Name = "btnoda102";
-            this.btnoda102.Size = new System.Drawing.Size(106, 88);
-            this.btnoda102.TabIndex = 1;
-            this.btnoda102.Text = "102";
-            this.btnoda102.UseVisualStyleBackColor = true;
-            this.btnoda102.Click += new System.EventHandler(this.btnoda102_Click);
-            // 
-            // btnoda103
-            // 
-            this.btnoda103.Location = new System.Drawing.Point(403, 58);
-            this.btnoda103.Name = "btnoda103";
-            this.btnoda103.Size = new System.Drawing.Size(106, 88);
-            this.btnoda103.TabIndex = 2;
-            this.btnoda103.Text = "103";
-            this.btnoda103.UseVisualStyleBackColor = true;
-            this.btnoda103.Click += new System.EventHandler(this.btnoda103_Click);
-            // 
-            // btnoda104
-            // 
-            this.btnoda104.Location = new System.Drawing.Point(36, 208);
-            this.btnoda104.Name = "btnoda104";
-            this.btnoda104.Size = new System.Drawing.Size(106, 88);
-            this.btnoda104.TabIndex = 3;
-            this.btnoda104.Text = "104";
-            this.btnoda104.UseVisualStyleBackColor = true;
-            this.btnoda104.Click += new System.EventHandler(this.btnoda104_Click);
-            // 
-            // btnoda105
-            // 
-            this.btnoda105.Location = new System.Drawing.Point(225, 208);
-            this.btnoda105.Name = "btnoda105";
-            this.btnoda105.Size = new System.Drawing.Size(106, 88);
-            this.btnoda105.TabIndex = 4;
-            this.btnoda105.Text = "105";
-            this.btnoda105.UseVisualStyleBackColor = true;
-            this.btnoda105.Click += new System.EventHandler(this.btnoda105_Click);
-            // 
-            // btnoda106
-            // 
-            this.btnoda106.Location = new System.Drawing.Point(403, 208);
-            this.btnoda106.Name = "btnoda106";
-            this.btnoda106.Size = new System.Drawing.Size(106, 88);
-            this.btnoda106.TabIndex = 5;
-            this.btnoda106.Text = "106";
-            this.btnoda106.UseVisualStyleBackColor = true;
-            this.btnoda106.Click += new System.EventHandler(this.btnoda106_Click);
-            // 
-            // btnoda107
-            // 
-            this.btnoda107.Location = new System.Drawing.Point(36, 367);
-            this.btnoda107.Name = "btnoda107";
-            this.btnoda107.Size = new System.Drawing.Size(106, 88);
-            this.btnoda107.TabIndex = 6;
-            this.btnoda107.Text = "107";
-            this.btnoda107.UseVisualStyleBackColor = true;
-            this.btnoda107.Click += new System.EventHandler(this.btnoda107_Click);
-            // 
-            // btnoda108
-            // 
-            this.btnoda108.Location = new System.Drawing.Point(225, 367);
-            this.btnoda108.Name = "btnoda108";
-            this.btnoda108.Size = new System.Drawing.Size(106, 88);
-            this.btnoda108.TabIndex = 7;
-            this.btnoda108.Text = "108";
-            this.btnoda108.UseVisualStyleBackColor = true;
-            this.btnoda108.Click += new System.EventHandler(this.btnoda108_Click);
+            this.btnboşoda.Location = new System.Drawing.Point(376, 491);
+            this.btnboşoda.Name = "btnboşoda";
+            this.btnboşoda.Size = new System.Drawing.Size(133, 46);
+            this.btnboşoda.TabIndex = 23;
+            this.btnboşoda.Text = "BOŞ";
+            this.btnboşoda.UseVisualStyleBackColor = true;
+            this.btnboşoda.Click += new System.EventHandler(this.btnboşoda_Click);
             // 
             // btnoda109
             // 
@@ -396,62 +372,104 @@
             // btndoluoda
             // 
             this.btndoluoda.BackColor = System.Drawing.Color.Red;
-            this.btndoluoda.Location = new System.Drawing.Point(824, 574);
+            this.btndoluoda.Location = new System.Drawing.Point(211, 491);
             this.btndoluoda.Name = "btndoluoda";
-            this.btndoluoda.Size = new System.Drawing.Size(106, 88);
+            this.btndoluoda.Size = new System.Drawing.Size(133, 46);
             this.btndoluoda.TabIndex = 22;
             this.btndoluoda.Text = "DOLU";
             this.btndoluoda.UseVisualStyleBackColor = false;
             this.btndoluoda.Click += new System.EventHandler(this.btndoluoda_Click);
             // 
-            // btnboşoda
+            // btnoda108
             // 
-            this.btnboşoda.Location = new System.Drawing.Point(947, 574);
-            this.btnboşoda.Name = "btnboşoda";
-            this.btnboşoda.Size = new System.Drawing.Size(106, 88);
-            this.btnboşoda.TabIndex = 23;
-            this.btnboşoda.Text = "BOŞ";
-            this.btnboşoda.UseVisualStyleBackColor = true;
-            this.btnboşoda.Click += new System.EventHandler(this.btnboşoda_Click);
+            this.btnoda108.Location = new System.Drawing.Point(225, 367);
+            this.btnoda108.Name = "btnoda108";
+            this.btnoda108.Size = new System.Drawing.Size(106, 88);
+            this.btnoda108.TabIndex = 7;
+            this.btnoda108.Text = "108";
+            this.btnoda108.UseVisualStyleBackColor = true;
+            this.btnoda108.Click += new System.EventHandler(this.btnoda108_Click);
             // 
-            // label10
+            // btnoda107
             // 
-            this.label10.AutoSize = true;
-            this.label10.Enabled = false;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(405, 480);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(24, 25);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "0";
+            this.btnoda107.Location = new System.Drawing.Point(36, 367);
+            this.btnoda107.Name = "btnoda107";
+            this.btnoda107.Size = new System.Drawing.Size(106, 88);
+            this.btnoda107.TabIndex = 6;
+            this.btnoda107.Text = "107";
+            this.btnoda107.UseVisualStyleBackColor = true;
+            this.btnoda107.Click += new System.EventHandler(this.btnoda107_Click);
             // 
-            // lblücret
+            // btnoda106
             // 
-            this.lblücret.AutoSize = true;
-            this.lblücret.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblücret.Location = new System.Drawing.Point(86, 237);
-            this.lblücret.Name = "lblücret";
-            this.lblücret.Size = new System.Drawing.Size(70, 25);
-            this.lblücret.TabIndex = 21;
-            this.lblücret.Text = "Ücret:";
+            this.btnoda106.Location = new System.Drawing.Point(403, 208);
+            this.btnoda106.Name = "btnoda106";
+            this.btnoda106.Size = new System.Drawing.Size(106, 88);
+            this.btnoda106.TabIndex = 5;
+            this.btnoda106.Text = "106";
+            this.btnoda106.UseVisualStyleBackColor = true;
+            this.btnoda106.Click += new System.EventHandler(this.btnoda106_Click);
             // 
-            // richTextBox1
+            // btnoda105
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(174, 239);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(246, 29);
-            this.richTextBox1.TabIndex = 23;
-            this.richTextBox1.Text = "";
+            this.btnoda105.Location = new System.Drawing.Point(225, 208);
+            this.btnoda105.Name = "btnoda105";
+            this.btnoda105.Size = new System.Drawing.Size(106, 88);
+            this.btnoda105.TabIndex = 4;
+            this.btnoda105.Text = "105";
+            this.btnoda105.UseVisualStyleBackColor = true;
+            this.btnoda105.Click += new System.EventHandler(this.btnoda105_Click);
+            // 
+            // btnoda104
+            // 
+            this.btnoda104.Enabled = false;
+            this.btnoda104.Location = new System.Drawing.Point(36, 208);
+            this.btnoda104.Name = "btnoda104";
+            this.btnoda104.Size = new System.Drawing.Size(106, 88);
+            this.btnoda104.TabIndex = 3;
+            this.btnoda104.Text = "104";
+            this.btnoda104.UseVisualStyleBackColor = true;
+            this.btnoda104.Click += new System.EventHandler(this.btnoda104_Click);
+            // 
+            // btnoda103
+            // 
+            this.btnoda103.Enabled = false;
+            this.btnoda103.Location = new System.Drawing.Point(403, 58);
+            this.btnoda103.Name = "btnoda103";
+            this.btnoda103.Size = new System.Drawing.Size(106, 88);
+            this.btnoda103.TabIndex = 2;
+            this.btnoda103.Text = "103";
+            this.btnoda103.UseVisualStyleBackColor = true;
+            this.btnoda103.Click += new System.EventHandler(this.btnoda103_Click);
+            // 
+            // btnoda102
+            // 
+            this.btnoda102.Enabled = false;
+            this.btnoda102.Location = new System.Drawing.Point(225, 58);
+            this.btnoda102.Name = "btnoda102";
+            this.btnoda102.Size = new System.Drawing.Size(106, 88);
+            this.btnoda102.TabIndex = 1;
+            this.btnoda102.Text = "102";
+            this.btnoda102.UseVisualStyleBackColor = true;
+            this.btnoda102.Click += new System.EventHandler(this.btnoda102_Click);
+            // 
+            // btnoda101
+            // 
+            this.btnoda101.Enabled = false;
+            this.btnoda101.Location = new System.Drawing.Point(36, 58);
+            this.btnoda101.Name = "btnoda101";
+            this.btnoda101.Size = new System.Drawing.Size(106, 88);
+            this.btnoda101.TabIndex = 0;
+            this.btnoda101.Text = "101";
+            this.btnoda101.UseVisualStyleBackColor = true;
+            this.btnoda101.Click += new System.EventHandler(this.btnoda101_Click);
             // 
             // yenimüşteri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1114, 693);
-            this.Controls.Add(this.btnboşoda);
-            this.Controls.Add(this.btndoluoda);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1114, 563);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
@@ -459,6 +477,7 @@
             this.MinimizeBox = false;
             this.Name = "yenimüşteri";
             this.Text = "YeniMüşteriEkle";
+            this.Load += new System.EventHandler(this.yenimüşteri_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
